@@ -1,35 +1,33 @@
-#define buzz 2
-#define button 3
-#define light 13
-
-
+#define BUZZ 12
+#define BUTTON 11
+#define LEDSORDI 13
 
 void setup(){
 
-  pinMode(buzz, OUTPUT);
-  pinMode(button, INPUT);
-  pinMode(light, OUTPUT);
+  pinMode(BUZZ, OUTPUT);
+  pinMode(BUTTON, INPUT);
+  pinMode(LEDSORDI, OUTPUT);
 }
 
 void loop() {
-  if (digitalRead(button) == HIGH) {
-    digitalWrite(light, HIGH);
-    tone(buzz, 587, 200);
+  if (digitalRead(BUTTON) == HIGH) {
+    digitalWrite(LEDSORDI, HIGH);
+    tone(BUZZ, 587, 200);
     delay(600);
-    tone(buzz, 466, 200);
+    tone(BUZZ, 466, 200);
     delay(600);
-    tone(buzz, 523, 200);
+    tone(BUZZ, 523, 200);
     delay(600);
-    tone(buzz, 349, 400);
+    tone(BUZZ, 349, 400);
     delay(500);
-    tone(buzz, 349, 200);
+    tone(BUZZ, 349, 200);
     delay(600);
-    tone(buzz, 523, 200);
+    tone(BUZZ, 523, 200);
     delay(600);
-    tone(buzz, 587, 200);
+    tone(BUZZ, 587, 200);
     delay(600);
-    tone(buzz, 466, 500);
+    tone(BUZZ, 466, 500);
     delay(500);
-    digitalWrite(light, LOW);
+    digitalWrite(LEDSORDI, LOW);
   }
 }

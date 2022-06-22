@@ -130,36 +130,6 @@ void loop() {
     if (caratteriIn == 4 &&(carattere1 == 1 && (carattere2 == 1 && (carattere3 == 0 && carattere4 == 1)))) {
         stato = false;
         
-        delay(500);
-        pinMode(LEDCONFERMA, HIGH);
-        tone(BUZZ, 587, 500);
-        pinMode(LEDCONFERMA, LOW);
-        delay(400);
-        pinMode(LEDCONFERMA, HIGH);
-        tone(BUZZ, 587, 500);
-        pinMode(LEDCONFERMA, LOW);
-        delay(400);
-        pinMode(LEDCONFERMA, HIGH);
-        tone(BUZZ, 493, 500);
-        pinMode(LEDCONFERMA, LOW);
-        delay(400);
-        pinMode(LEDCONFERMA, HIGH);
-        tone(BUZZ, 523, 500);
-        pinMode(LEDCONFERMA, LOW);
-        delay(400);
-        pinMode(LEDCONFERMA, HIGH);
-        tone(BUZZ, 493, 500);
-        pinMode(LEDCONFERMA, LOW);
-        delay(400);
-        pinMode(LEDCONFERMA, HIGH);
-        tone(BUZZ, 587, 500);
-        pinMode(LEDCONFERMA, LOW);
-        delay(400);
-        pinMode(LEDCONFERMA, HIGH);
-        tone(BUZZ, 587, 500);
-        pinMode(LEDCONFERMA, LOW);
-        delay(400);
-        pinMode(LEDCONFERMA, HIGH);
 
         carattere1 = 0;
         carattere2 = 0;
