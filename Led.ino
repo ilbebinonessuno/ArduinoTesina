@@ -35,10 +35,10 @@ void loop() {
         delay(200);
     }
 
-    if (varled2 == 1) {                         //Se la variabile LED2 è vera accendi LED2
+    if (varled2 == 1) {                         //Se la variabile LED2 è vera accende LED2
         digitalWrite(LED2, HIGH);
     }
-    else {                                      //Se la variabile LED2 è vera accendi LED2
+    else {                                      //Se la variabile LED2 è vera accende LED2
         digitalWrite (LED2, LOW);
     }
 }
